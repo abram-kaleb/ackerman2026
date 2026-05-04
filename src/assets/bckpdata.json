@@ -1,0 +1,1171 @@
+[
+    {
+        "No": 1,
+        "Parameter": "Throttle Lever Speed",
+        "Unit": "%",
+        "Min": -1.0,
+        "Max": 101.0
+    },
+    {
+        "No": 2,
+        "Parameter": "Throttle Lever Brake Load",
+        "Unit": "%",
+        "Min": -1.0,
+        "Max": 110.0
+    },
+    {
+        "No": 3,
+        "Parameter": "Stop/Operation",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 4,
+        "Parameter": "Console / Machine Switch",
+        "Unit": "CONSOLE/MACHINE",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 5,
+        "Parameter": "Date",
+        "Unit": "DD/MM/YY",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 6,
+        "Parameter": "Time",
+        "Unit": "HH:MM:SS",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 7,
+        "Parameter": "Operating Hours",
+        "Unit": "Hours",
+        "Min": 0.0,
+        "Max": 10000
+    },
+    {
+        "No": 8,
+        "Parameter": "Engine Speed",
+        "Unit": "RPM",
+        "Min": 0.0,
+        "Max": 1015.0
+    },
+    {
+        "No": 9,
+        "Parameter": "Braking Power",
+        "Unit": "kW",
+        "Min": -1.0,
+        "Max": 960.0
+    },
+    {
+        "No": 10,
+        "Parameter": "Engine Filling/Load",
+        "Unit": "%",
+        "Min": -1.0,
+        "Max": 110.0
+    },
+    {
+        "No": 11,
+        "Parameter": "Starting Air Pressure",
+        "Unit": "bar",
+        "Min": 7.0,
+        "Max": 30.0
+    },
+    {
+        "No": 12,
+        "Parameter": "Lube Oil Pressure",
+        "Unit": "bar",
+        "Min": 2.5,
+        "Max": 4.0
+    },
+    {
+        "No": 13,
+        "Parameter": "Fuel Pressure (MDO)",
+        "Unit": "bar",
+        "Min": 1.5,
+        "Max": 5.0
+    },
+    {
+        "No": 14,
+        "Parameter": "LT Cooling Water Pressure",
+        "Unit": "bar",
+        "Min": 0.4,
+        "Max": 4.6
+    },
+    {
+        "No": 15,
+        "Parameter": "HT Cooling Water Pressure",
+        "Unit": "bar",
+        "Min": 2.0,
+        "Max": 5.0
+    },
+    {
+        "No": 16,
+        "Parameter": "Charge Air Pressure",
+        "Unit": "bar",
+        "Min": 2.0,
+        "Max": 2.5
+    },
+    {
+        "No": 17,
+        "Parameter": "Engine Room Pressure",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 2.0
+    },
+    {
+        "No": 18,
+        "Parameter": "Engine Room Temperature",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 45.0
+    },
+    {
+        "No": 19,
+        "Parameter": "Relative Humidity",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 50.0
+    },
+    {
+        "No": 20,
+        "Parameter": "Emergency Stop Button",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 21,
+        "Parameter": "Start Counter",
+        "Unit": "COUNT",
+        "Min": 0.0,
+        "Max": 1000.0
+    },
+    {
+        "No": 22,
+        "Parameter": "Temp. after Cylinder 1",
+        "Unit": "\u00b0C",
+        "Min": 300.0,
+        "Max": 450.0
+    },
+    {
+        "No": 23,
+        "Parameter": "Temp. after Cylinder 2",
+        "Unit": "\u00b0C",
+        "Min": 300.0,
+        "Max": 450.0
+    },
+    {
+        "No": 24,
+        "Parameter": "Temp. after Cylinder 3",
+        "Unit": "\u00b0C",
+        "Min": 300.0,
+        "Max": 450.0
+    },
+    {
+        "No": 25,
+        "Parameter": "Temp. after Cylinder 4",
+        "Unit": "\u00b0C",
+        "Min": 300.0,
+        "Max": 450.0
+    },
+    {
+        "No": 26,
+        "Parameter": "Temp. after Cylinder 5",
+        "Unit": "\u00b0C",
+        "Min": 300.0,
+        "Max": 450.0
+    },
+    {
+        "No": 27,
+        "Parameter": "Temp. after Cylinder 6",
+        "Unit": "\u00b0C",
+        "Min": 300.0,
+        "Max": 450.0
+    },
+    {
+        "No": 28,
+        "Parameter": "Temp. before Turbocharger",
+        "Unit": "\u00b0C",
+        "Min": 425.0,
+        "Max": 550.0
+    },
+    {
+        "No": 29,
+        "Parameter": "Temp. after Turbocharger",
+        "Unit": "\u00b0C",
+        "Min": 320.0,
+        "Max": 390.0
+    },
+    {
+        "No": 30,
+        "Parameter": "Pressure before Turbocharger",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 1.5
+    },
+    {
+        "No": 31,
+        "Parameter": "Pressure after Turbocharger",
+        "Unit": "bar",
+        "Min": 1.5,
+        "Max": 2.0
+    },
+    {
+        "No": 32,
+        "Parameter": "Turbocharger Speed",
+        "Unit": "RPM",
+        "Min": 0.0,
+        "Max": 55290.0
+    },
+    {
+        "No": 33,
+        "Parameter": "Temp. before Silencer",
+        "Unit": "\u00b0C",
+        "Min": 342.0,
+        "Max": 371.0
+    },
+    {
+        "No": 34,
+        "Parameter": "Exhaust Temp. Deviation",
+        "Unit": "\u00b0C",
+        "Min": 25.0,
+        "Max": 50.0
+    },
+    {
+        "No": 35,
+        "Parameter": "Pressure 1",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 36,
+        "Parameter": "Pressure 2",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 37,
+        "Parameter": "Pressure 3",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 38,
+        "Parameter": "Pressure 4",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 39,
+        "Parameter": "Temp 1",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 40,
+        "Parameter": "Temp 2",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 41,
+        "Parameter": "Temp 3",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 42,
+        "Parameter": "Temp 4",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 43,
+        "Parameter": "-",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 44,
+        "Parameter": "Concentration 1",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 45,
+        "Parameter": "Concentration 2",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 46,
+        "Parameter": "Mobile 1",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 21.0
+    },
+    {
+        "No": 47,
+        "Parameter": "Mobile 2",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 7.5
+    },
+    {
+        "No": 48,
+        "Parameter": "Mobile 3",
+        "Unit": "-",
+        "Min": 3.0,
+        "Max": 1000.0
+    },
+    {
+        "No": 49,
+        "Parameter": "Mobile 4",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 210.0
+    },
+    {
+        "No": 50,
+        "Parameter": "Mobile 5",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 1300.0
+    },
+    {
+        "No": 51,
+        "Parameter": "Mobile 6",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 1300.0
+    },
+    {
+        "No": 52,
+        "Parameter": "Mobile 7",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 3600.0
+    },
+    {
+        "No": 53,
+        "Parameter": "Mobile 8",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 1300.0
+    },
+    {
+        "No": 54,
+        "Parameter": "Mobile 9",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 3.0
+    },
+    {
+        "No": 55,
+        "Parameter": "Mobile 10",
+        "Unit": "-",
+        "Min": 40.0,
+        "Max": 90.0
+    },
+    {
+        "No": 56,
+        "Parameter": "Pressure before Engine",
+        "Unit": "bar",
+        "Min": 0.4,
+        "Max": 4.6
+    },
+    {
+        "No": 57,
+        "Parameter": "Temp. before Engine",
+        "Unit": "\u00b0C",
+        "Min": 60.0,
+        "Max": 75.0
+    },
+    {
+        "No": 58,
+        "Parameter": "Temp. after Cyl. 1",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 85.0
+    },
+    {
+        "No": 59,
+        "Parameter": "Temp. after Cyl. 2",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 85.0
+    },
+    {
+        "No": 60,
+        "Parameter": "Temp. after Cyl. 3",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 85.0
+    },
+    {
+        "No": 61,
+        "Parameter": "Temp. after Cyl. 4",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 85.0
+    },
+    {
+        "No": 62,
+        "Parameter": "Temp. after Cyl. 5",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 85.0
+    },
+    {
+        "No": 63,
+        "Parameter": "Temp. after Cyl. 6",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 85.0
+    },
+    {
+        "No": 64,
+        "Parameter": "Temp. after Engine",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 90.0
+    },
+    {
+        "No": 65,
+        "Parameter": "Temp. before Cooler",
+        "Unit": "\u00b0C",
+        "Min": 75.0,
+        "Max": 85.0
+    },
+    {
+        "No": 66,
+        "Parameter": "Temp. after Cooler",
+        "Unit": "\u00b0C",
+        "Min": 60.0,
+        "Max": 75.0
+    },
+    {
+        "No": 67,
+        "Parameter": "Flow Rate",
+        "Unit": "m\u00b3/h",
+        "Min": 36.0,
+        "Max": 45.0
+    },
+    {
+        "No": 68,
+        "Parameter": "Pressure",
+        "Unit": "bar",
+        "Min": 1.0,
+        "Max": 3.1
+    },
+    {
+        "No": 69,
+        "Parameter": "Standby Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 70,
+        "Parameter": "Press. Maintenance Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 71,
+        "Parameter": "Expansion Tank Level",
+        "Unit": "%",
+        "Min": 0.1,
+        "Max": 1.0
+    },
+    {
+        "No": 72,
+        "Parameter": "Temp. before Charge Air Cooler",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 38.0
+    },
+    {
+        "No": 73,
+        "Parameter": "Temp. after Charge Air Cooler",
+        "Unit": "\u00b0C",
+        "Min": 25.0,
+        "Max": 55.0
+    },
+    {
+        "No": 74,
+        "Parameter": "Temp. before Lube Oil Cooler",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 100.0
+    },
+    {
+        "No": 75,
+        "Parameter": "Temp. after Lube Oil Cooler",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 85.0
+    },
+    {
+        "No": 76,
+        "Parameter": "Temp. after Cylinder Water Cooler",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 75.0
+    },
+    {
+        "No": 77,
+        "Parameter": "Temp. Inlet Warm Side Tank",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 75.0
+    },
+    {
+        "No": 78,
+        "Parameter": "LT Flow Rate",
+        "Unit": "m\u00b3/h",
+        "Min": 0.0,
+        "Max": 69.0
+    },
+    {
+        "No": 79,
+        "Parameter": "LT Pressure",
+        "Unit": "bar",
+        "Min": 0.4,
+        "Max": 2.5
+    },
+    {
+        "No": 80,
+        "Parameter": "Standby LT Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 81,
+        "Parameter": "Cooling Tower Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 82,
+        "Parameter": "Cooling Tower Pump Pressure",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 3.0
+    },
+    {
+        "No": 83,
+        "Parameter": "Cooling Tower Fan",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 84,
+        "Parameter": "Temp. Tank, Cold Side",
+        "Unit": "\u00b0C",
+        "Min": 32.0,
+        "Max": 36.0
+    },
+    {
+        "No": 85,
+        "Parameter": "Brake Water Inlet Pump",
+        "Unit": "Status",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 86,
+        "Parameter": "Brake Water Outlet Pump",
+        "Unit": "Status",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 87,
+        "Parameter": "Pressure after Pump",
+        "Unit": "bar",
+        "Min": 3.5,
+        "Max": 7.0
+    },
+    {
+        "No": 88,
+        "Parameter": "Temp. after Pump",
+        "Unit": "\u00b0C",
+        "Min": 60.0,
+        "Max": 90.0
+    },
+    {
+        "No": 89,
+        "Parameter": "Temp. before Cooler",
+        "Unit": "\u00b0C",
+        "Min": 60.0,
+        "Max": 90.0
+    },
+    {
+        "No": 90,
+        "Parameter": "Temp. after Cooler",
+        "Unit": "\u00b0C",
+        "Min": 45.0,
+        "Max": 75.0
+    },
+    {
+        "No": 91,
+        "Parameter": "Diff. Pressure Duplex Filter",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 1.5
+    },
+    {
+        "No": 92,
+        "Parameter": "Pressure before Engine / after Filter",
+        "Unit": "bar",
+        "Min": 3.0,
+        "Max": 3.1
+    },
+    {
+        "No": 93,
+        "Parameter": "Temp. before Engine",
+        "Unit": "\u00b0C",
+        "Min": 45.0,
+        "Max": 85.0
+    },
+    {
+        "No": 94,
+        "Parameter": "Lube Oil Flow Rate",
+        "Unit": "m\u00b3/h",
+        "Min": 16.0,
+        "Max": 22.0
+    },
+    {
+        "No": 95,
+        "Parameter": "Standby Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 96,
+        "Parameter": "Separator",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 97,
+        "Parameter": "Diff. Pressure Fine Filter",
+        "Unit": "bar",
+        "Min": 0.5,
+        "Max": 1.5
+    },
+    {
+        "No": 98,
+        "Parameter": "Temp. before Last Bearing",
+        "Unit": "\u00b0C",
+        "Min": 75.0,
+        "Max": 95.0
+    },
+    {
+        "No": 99,
+        "Parameter": "Oil Mist Concentration",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 0.2
+    },
+    {
+        "No": 100,
+        "Parameter": "Temp. before Turbocharger",
+        "Unit": "\u00b0C",
+        "Min": 425.0,
+        "Max": 550.0
+    },
+    {
+        "No": 101,
+        "Parameter": "Temp. before Charge Air Cooler",
+        "Unit": "\u00b0C",
+        "Min": 150.0,
+        "Max": 200.0
+    },
+    {
+        "No": 102,
+        "Parameter": "Temp. after Charge Air Cooler",
+        "Unit": "\u00b0C",
+        "Min": 35.0,
+        "Max": 70.0
+    },
+    {
+        "No": 103,
+        "Parameter": "Pressure after Charge Air Cooler",
+        "Unit": "bar",
+        "Min": 2.0,
+        "Max": 2.5
+    },
+    {
+        "No": 104,
+        "Parameter": "Orifice Differential Pressure",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 105,
+        "Parameter": "-",
+        "Unit": "-",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 106,
+        "Parameter": "Throughput (Air Mass Flow)",
+        "Unit": "m\u00b3/h",
+        "Min": 5.4,
+        "Max": 6.7
+    },
+    {
+        "No": 107,
+        "Parameter": "MDO Pressure before Filter",
+        "Unit": "bar",
+        "Min": 1.0,
+        "Max": 1.5
+    },
+    {
+        "No": 108,
+        "Parameter": "MDO Pressure after Filter",
+        "Unit": "bar",
+        "Min": 1.5,
+        "Max": 2.5
+    },
+    {
+        "No": 109,
+        "Parameter": "MDO Temp. before Engine",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 95.0
+    },
+    {
+        "No": 110,
+        "Parameter": "MDO Throughput",
+        "Unit": "null",
+        "Min": 0.0,
+        "Max": 260.0
+    },
+    {
+        "No": 111,
+        "Parameter": "MDO Day Tank Level",
+        "Unit": "%",
+        "Min": 20.0,
+        "Max": 100.0
+    },
+    {
+        "No": 112,
+        "Parameter": "HFO Preheating Status",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 113,
+        "Parameter": "HFO Storage Tank Temp.",
+        "Unit": "\u00b0C",
+        "Min": 40.0,
+        "Max": 55.0
+    },
+    {
+        "No": 114,
+        "Parameter": "HFO Temp. before Settling Tank",
+        "Unit": "\u00b0C",
+        "Min": 50.0,
+        "Max": 98.0
+    },
+    {
+        "No": 115,
+        "Parameter": "HFO Settling Tank Temp.",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 80.0
+    },
+    {
+        "No": 116,
+        "Parameter": "HFO Settling Tank Level",
+        "Unit": "%",
+        "Min": 20.0,
+        "Max": 100.0
+    },
+    {
+        "No": 117,
+        "Parameter": "HFO Press. before Preheater",
+        "Unit": "bar",
+        "Min": 3.0,
+        "Max": 6.0
+    },
+    {
+        "No": 118,
+        "Parameter": "HFO Temp. before Preheater",
+        "Unit": "\u00b0C",
+        "Min": 70.0,
+        "Max": 90.0
+    },
+    {
+        "No": 119,
+        "Parameter": "HFO Press. after Preheater",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 5.0
+    },
+    {
+        "No": 120,
+        "Parameter": "HFO Temp. after Preheater",
+        "Unit": "\u00b0C",
+        "Min": 95.0,
+        "Max": 110.0
+    },
+    {
+        "No": 121,
+        "Parameter": "HFO Press. before Day Tank",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 5.0
+    },
+    {
+        "No": 122,
+        "Parameter": "HFO Temp. before Day Tank",
+        "Unit": "\u00b0C",
+        "Min": 80.0,
+        "Max": 100.0
+    },
+    {
+        "No": 123,
+        "Parameter": "HFO Day Tank Temp.",
+        "Unit": "\u00b0C",
+        "Min": 85.0,
+        "Max": 100.0
+    },
+    {
+        "No": 124,
+        "Parameter": "HFO Press. before Mixing Pipe",
+        "Unit": "bar",
+        "Min": 3.0,
+        "Max": 6.5
+    },
+    {
+        "No": 125,
+        "Parameter": "HFO Temp. before Mixing Pipe",
+        "Unit": "\u00b0C",
+        "Min": 85.0,
+        "Max": 105.0
+    },
+    {
+        "No": 126,
+        "Parameter": "HFO Throughput (Mixing Pipe)",
+        "Unit": "m\u00b3/h",
+        "Min": 0.81,
+        "Max": 1.3
+    },
+    {
+        "No": 127,
+        "Parameter": "HFO Press. before Final Preheater",
+        "Unit": "bar",
+        "Min": 4.0,
+        "Max": 9.0
+    },
+    {
+        "No": 128,
+        "Parameter": "HFO Temp. before Final Preheater",
+        "Unit": "\u00b0C",
+        "Min": 90.0,
+        "Max": 110.0
+    },
+    {
+        "No": 129,
+        "Parameter": "HFO Temp. after Final Preheater",
+        "Unit": "\u00b0C",
+        "Min": 120.0,
+        "Max": 150.0
+    },
+    {
+        "No": 130,
+        "Parameter": "HFO Viscosity after Final Pre",
+        "Unit": "cSt",
+        "Min": 12.0,
+        "Max": 18.0
+    },
+    {
+        "No": 131,
+        "Parameter": "HFO Pressure before Engine",
+        "Unit": "bar",
+        "Min": 4.0,
+        "Max": 16.0
+    },
+    {
+        "No": 132,
+        "Parameter": "HFO Temp. before Engine",
+        "Unit": "\u00b0C",
+        "Min": 120.0,
+        "Max": 150.0
+    },
+    {
+        "No": 133,
+        "Parameter": "HFO Feed Pump to Settling",
+        "Unit": "m\u00b3/h",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 134,
+        "Parameter": "HFO Separator 1",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 135,
+        "Parameter": "HFO Separator 2",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 136,
+        "Parameter": "HFO Feed Pump to Fuel Module",
+        "Unit": "m\u00b3/h",
+        "Min": 0.28,
+        "Max": 4.0
+    },
+    {
+        "No": 137,
+        "Parameter": "LPG Pressure 1 (Storage)",
+        "Unit": "bar",
+        "Min": 0.0,
+        "Max": 18.0
+    },
+    {
+        "No": 138,
+        "Parameter": "LPG Pressure 2 (After Pump)",
+        "Unit": "bar",
+        "Min": 10.0,
+        "Max": 55.0
+    },
+    {
+        "No": 139,
+        "Parameter": "LPG Pressure 3 (Engine Inlet)",
+        "Unit": "bar",
+        "Min": 15.0,
+        "Max": 60.0
+    },
+    {
+        "No": 140,
+        "Parameter": "LPG Pressure 4 (Sealing Oil)",
+        "Unit": "bar",
+        "Min": 20.0,
+        "Max": 65.0
+    },
+    {
+        "No": 141,
+        "Parameter": "LPG Pressure 5 (Return)",
+        "Unit": "bar",
+        "Min": 2.0,
+        "Max": 15.0
+    },
+    {
+        "No": 142,
+        "Parameter": "LPG Temp 1 (Storage)",
+        "Unit": "\u00b0C",
+        "Min": -10.0,
+        "Max": 45.0
+    },
+    {
+        "No": 143,
+        "Parameter": "LPG Temp 2 (Pre-Engine)",
+        "Unit": "\u00b0C",
+        "Min": 10.0,
+        "Max": 55.0
+    },
+    {
+        "No": 144,
+        "Parameter": "LPG Temp 3 (Return)",
+        "Unit": "\u00b0C",
+        "Min": 15.0,
+        "Max": 60.0
+    },
+    {
+        "No": 145,
+        "Parameter": "LPG Temp 4",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 146,
+        "Parameter": "LPG Temp 5",
+        "Unit": "\u00b0C",
+        "Min": 0.0,
+        "Max": 0.0
+    },
+    {
+        "No": 147,
+        "Parameter": "LPG Conentration 1 (Tank Room)",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 40.0
+    },
+    {
+        "No": 148,
+        "Parameter": "LPG Conentration 2 (Vent Line)",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 40.0
+    },
+    {
+        "No": 149,
+        "Parameter": "LPG Conentration 3 (Engine Block)",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 40.0
+    },
+    {
+        "No": 150,
+        "Parameter": "LPG Conentration 4 (Manifold)",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 40.0
+    },
+    {
+        "No": 151,
+        "Parameter": "LPG Conentration 5 (Exhaust Duct)",
+        "Unit": "%",
+        "Min": 0.0,
+        "Max": 40.0
+    },
+    {
+        "No": 152,
+        "Parameter": "LPG Throughput",
+        "Unit": "kg/h",
+        "Min": 0.0,
+        "Max": 300.0
+    },
+    {
+        "No": 153,
+        "Parameter": "LPG Pump 1",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 154,
+        "Parameter": "LPG Pump 2",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 155,
+        "Parameter": "LPG Pump 3",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 156,
+        "Parameter": "LPG Pump 4",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 157,
+        "Parameter": "Pressure before Engine",
+        "Unit": "bar",
+        "Min": 7.0,
+        "Max": 30.0
+    },
+    {
+        "No": 158,
+        "Parameter": "Compressor 1",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 159,
+        "Parameter": "Compressor 2",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 160,
+        "Parameter": "Pressure before Engine",
+        "Unit": "bar",
+        "Min": 1.0,
+        "Max": 3.0
+    },
+    {
+        "No": 161,
+        "Parameter": "Temp. before Engine",
+        "Unit": "\u00b0C",
+        "Min": 50.0,
+        "Max": 75.0
+    },
+    {
+        "No": 162,
+        "Parameter": "Temp. after Engine",
+        "Unit": "\u00b0C",
+        "Min": 50.0,
+        "Max": 95.0
+    },
+    {
+        "No": 163,
+        "Parameter": "Throughput",
+        "Unit": "m\u00b3/h",
+        "Min": 0.0,
+        "Max": 0.66
+    },
+    {
+        "No": 164,
+        "Parameter": "Circulation Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 165,
+        "Parameter": "Standby Pump",
+        "Unit": "OFF/ON",
+        "Min": 0.0,
+        "Max": 1.0
+    },
+    {
+        "No": 166,
+        "Parameter": "Filter Diff. Pressure",
+        "Unit": "bar",
+        "Min": 0.5,
+        "Max": 1.5
+    },
+    {
+        "No": 167,
+        "Parameter": "Circulation Tank Level",
+        "Unit": "%",
+        "Min": 20.0,
+        "Max": 100.0
+    }
+]

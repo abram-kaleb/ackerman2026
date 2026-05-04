@@ -1,0 +1,308 @@
+[
+    {
+        "No": 1,
+        "Component": "Turbocharger",
+        "Action": "Dry cleaning of turbine side",
+        "Details": "-",
+        "Minimum Hours": 48,
+        "Maximum Hours": 48,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 2,
+        "Component": "Turbocharger",
+        "Action": "Wet cleaning of turbine side",
+        "Details": "-",
+        "Minimum Hours": 168,
+        "Maximum Hours": 168,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 3,
+        "Component": "Turbocharger",
+        "Action": "Water washing of compressor side",
+        "Details": "-",
+        "Minimum Hours": 25,
+        "Maximum Hours": 75,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 4,
+        "Component": "Turbocharger",
+        "Action": "Air filter cleaning",
+        "Details": "Based on observations.",
+        "Minimum Hours": 0,
+        "Maximum Hours": 0,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 5,
+        "Component": "Turbocharger",
+        "Action": "Inspection",
+        "Details": "Check all mounting screws, casing screws and pipe line connections for tight fit by tapping, retighten if necessary",
+        "Minimum Hours": 1000,
+        "Maximum Hours": 1000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 6,
+        "Component": "Turbocharger",
+        "Action": "Compressor cleaning in dismantled condition:",
+        "Details": "compressor inner components, final diffusor, compressor wheel",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 7,
+        "Component": "Turbocharger",
+        "Action": "Silencer cleaning in dismantled condition:",
+        "Details": "silencer felt linings",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 8,
+        "Component": "Turbocharger",
+        "Action": "Major overhaul",
+        "Details": "Dismantling, cleaning, inspection, checking and cleaning cartridge, checking bearing clearances, checking gaps and clearances on reassembly and clearances on reassembly",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 9,
+        "Component": "Regulating System",
+        "Action": "Function check of overspeed and shutdown devices.",
+        "Details": "Check that the control rod of each individual fuel pump can easily go to \"stop\" position",
+        "Minimum Hours": 720,
+        "Maximum Hours": 720,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 10,
+        "Component": "Cylinder head",
+        "Action": "Checking and adjustment of valve clearance",
+        "Details": "-",
+        "Minimum Hours": 2000,
+        "Maximum Hours": 2000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 11,
+        "Component": "Fuel injection valve",
+        "Action": "Checking, cleaning and adjustment of opening pressure",
+        "Details": "-",
+        "Minimum Hours": 2000,
+        "Maximum Hours": 2000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 12,
+        "Component": "Exhaust valve",
+        "Action": "Overhaul and regrinding of spindle and valve seat",
+        "Details": "-",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 32000
+    },
+    {
+        "No": 13,
+        "Component": "Exhaust valve",
+        "Action": "Function check of rotocap",
+        "Details": "-",
+        "Minimum Hours": 720,
+        "Maximum Hours": 720,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 14,
+        "Component": "Air inlet valve",
+        "Action": "Overhaul in connection with exhaust valve overhaul",
+        "Details": "-",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 32000
+    },
+    {
+        "No": 15,
+        "Component": "Valve guide",
+        "Action": "Measuring of inside diameter in connection with valve overhaul",
+        "Details": "-",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 32000
+    },
+    {
+        "No": 16,
+        "Component": "Cylinder head nuts",
+        "Action": "Retightening",
+        "Details": "200 hours after new or overhaul",
+        "Minimum Hours": 200,
+        "Maximum Hours": 200,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 17,
+        "Component": "Compressed air system",
+        "Action": "Check of compressed air system",
+        "Details": "-",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 18,
+        "Component": "Compressed air system",
+        "Action": "Refill of air lubricator",
+        "Details": "Based on observations",
+        "Minimum Hours": 0,
+        "Maximum Hours": 0,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 19,
+        "Component": "Main bearings",
+        "Action": "Inspection according to classification survey",
+        "Details": "Normally after 24000 running hours or 4 years of service",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 48000
+    },
+    {
+        "No": 20,
+        "Component": "Main bearings",
+        "Action": "Retightening of main bearing cap",
+        "Details": "200 hours after new or overhaul and every...",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 21,
+        "Component": "Main bearings",
+        "Action": "Retightening of screws for counterweights",
+        "Details": "200 hours after new or overhaul and every...",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 22,
+        "Component": "Supporting chocks and bolt connections",
+        "Action": "Retightening of holding-down bolts",
+        "Details": "200 \u00e1 1000 hours after new or overhaul and every...",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 23,
+        "Component": "Supporting chocks and bolt connections",
+        "Action": "Retightening of bolts between engine frame and base frame",
+        "Details": "-",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 24,
+        "Component": "Supporting chocks and bolt connections",
+        "Action": "For flexible mounted engines",
+        "Details": "Check anti-vibration mountings",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 25,
+        "Component": "Autolog reading",
+        "Action": "Crankshaft deflection and main bearing clearance reading",
+        "Details": "Should be carried out in connection with retightening of main bearing and holding-down bolts",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 26,
+        "Component": "Big-end bearing",
+        "Action": "Retightening and checking of bearing clearance",
+        "Details": "200 hours after new or overhaul and every...",
+        "Minimum Hours": 6000,
+        "Maximum Hours": 8000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 27,
+        "Component": "Big-end bearing",
+        "Action": "Inspection in connection with piston overhaul",
+        "Details": "-",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 32000
+    },
+    {
+        "No": 28,
+        "Component": "Piston",
+        "Action": "Overhaul, replacement of compression rings and scraper rings",
+        "Details": "Measuring of ring grooves, inspection of big-end bearing and inspection of cylinder liner condition",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 64000
+    },
+    {
+        "No": 29,
+        "Component": "Cylinder liner",
+        "Action": "Inspection, measuring and reconditioning of running surface condition",
+        "Details": "In connection with piston overhaul",
+        "Minimum Hours": 16000,
+        "Maximum Hours": 16000,
+        "Expected Service Hours": 80000
+    },
+    {
+        "No": 30,
+        "Component": "Cylinder liner",
+        "Action": "Overhaul and reconditioning of surface between liner and frame",
+        "Details": "Cleaning of surface in cooling water space",
+        "Minimum Hours": 32000,
+        "Maximum Hours": 32000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 31,
+        "Component": "Fuel pump",
+        "Action": "Fuel pump barrel/plunger assembly",
+        "Details": "Overhaul based on operational observations",
+        "Minimum Hours": 0,
+        "Maximum Hours": 0,
+        "Expected Service Hours": 32000
+    },
+    {
+        "No": 32,
+        "Component": "Torsional vibration dampers",
+        "Action": "Overhaul",
+        "Details": "A sample of silicone fluid must be taken and analysed in between",
+        "Minimum Hours": 32000,
+        "Maximum Hours": 32000,
+        "Expected Service Hours": "-"
+    },
+    {
+        "No": 33,
+        "Component": "Lub. oil filter cartr.",
+        "Action": "Replacement",
+        "Details": "Based on observations of pressure drop",
+        "Minimum Hours": 0,
+        "Maximum Hours": 0,
+        "Expected Service Hours": 1500
+    },
+    {
+        "No": 34,
+        "Component": "Filter Cartridges",
+        "Action": "Replacement",
+        "Details": "Based on observations",
+        "Minimum Hours": 0,
+        "Maximum Hours": 0,
+        "Expected Service Hours": 1500
+    }
+]
