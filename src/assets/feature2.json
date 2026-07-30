@@ -1,0 +1,282 @@
+[
+    {
+        "no": 1,
+        "name": "Throttle Lever Speed",
+        "sql": 1
+    },
+    {
+        "no": 2,
+        "name": "Throttle Lever Brake Load",
+        "sql": 2
+    },
+    {
+        "no": 3,
+        "name": "Engine Speed",
+        "sql": 8
+    },
+    {
+        "no": 4,
+        "name": "Brake Power",
+        "sql": 9
+    },
+    {
+        "no": 5,
+        "name": "Load",
+        "sql": 10
+    },
+    {
+        "no": 6,
+        "name": "Speed Turbo",
+        "sql": 32
+    },
+    {
+        "no": 7,
+        "name": "Engine Room Pressure",
+        "sql": 17
+    },
+    {
+        "no": 8,
+        "name": "Engine Room Temperature",
+        "sql": 18
+    },
+    {
+        "no": 9,
+        "name": "Relative Humidity",
+        "sql": 19
+    },
+    {
+        "no": 10,
+        "name": "Exhaust Temp. Cyl.1",
+        "sql": 22
+    },
+    {
+        "no": 11,
+        "name": "Exhaust Temp. Cyl.2",
+        "sql": 23
+    },
+    {
+        "no": 12,
+        "name": "Exhaust Temp. Cyl.3",
+        "sql": 24
+    },
+    {
+        "no": 13,
+        "name": "Exhaust Temp. Cyl.4",
+        "sql": 25
+    },
+    {
+        "no": 14,
+        "name": "Exhaust Temp. Cyl.5",
+        "sql": 26
+    },
+    {
+        "no": 15,
+        "name": "Exhaust Temp. Cyl.6",
+        "sql": 27
+    },
+    {
+        "no": 16,
+        "name": "Exhaust Temp. Before Turbine",
+        "sql": 28
+    },
+    {
+        "no": 17,
+        "name": "Exhaust Temp. After Turbine",
+        "sql": 29
+    },
+    {
+        "no": 18,
+        "name": "Exhaust Temp. Before Silencer",
+        "sql": 33
+    },
+    {
+        "no": 19,
+        "name": "Exhaust Press. Before Turbo",
+        "sql": 30
+    },
+    {
+        "no": 20,
+        "name": "Exhaust Press. After Turbo",
+        "sql": 31
+    },
+    {
+        "no": 21,
+        "name": "Intake Air Temp. Before Intercooler",
+        "sql": 101
+    },
+    {
+        "no": 22,
+        "name": "Intake Air Temp. After Intercooler",
+        "sql": 102
+    },
+    {
+        "no": 23,
+        "name": "Intake Pressure After Intercooler",
+        "sql": 103
+    },
+    {
+        "no": 24,
+        "name": "HTCW Temp. Cyl.1",
+        "sql": 58
+    },
+    {
+        "no": 25,
+        "name": "HTCW Temp. Cyl.2",
+        "sql": 59
+    },
+    {
+        "no": 26,
+        "name": "HTCW Temp. Cyl.3",
+        "sql": 60
+    },
+    {
+        "no": 27,
+        "name": "HTCW Temp. Cyl.4",
+        "sql": 61
+    },
+    {
+        "no": 28,
+        "name": "HTCW Temp. Cyl.5",
+        "sql": 62
+    },
+    {
+        "no": 29,
+        "name": "HTCW Temp. Cyl.6",
+        "sql": 63
+    },
+    {
+        "no": 30,
+        "name": "HTCW Temp. Before Engine",
+        "sql": 57
+    },
+    {
+        "no": 31,
+        "name": "HTCW Temp. After Engine",
+        "sql": 64
+    },
+    {
+        "no": 32,
+        "name": "HTCW Temp. Before Cooler",
+        "sql": 65
+    },
+    {
+        "no": 33,
+        "name": "HTCW Temp. After Cooler",
+        "sql": 66
+    },
+    {
+        "no": 34,
+        "name": "HTCW Pressure Before Engine",
+        "sql": 56
+    },
+    {
+        "no": 35,
+        "name": "HTCW Pressure After Engine",
+        "sql": 68
+    },
+    {
+        "no": 36,
+        "name": "HTCW Flow Rate",
+        "sql": 67
+    },
+    {
+        "no": 37,
+        "name": "LTCW Temp. Before Intercool.",
+        "sql": 72
+    },
+    {
+        "no": 38,
+        "name": "LTCW Temp. After Intercool.",
+        "sql": 73
+    },
+    {
+        "no": 39,
+        "name": "LTCW Temp. After LO-Cool.",
+        "sql": 75
+    },
+    {
+        "no": 40,
+        "name": "LTCW Temp. After Cyl.-Cool.",
+        "sql": 76
+    },
+    {
+        "no": 41,
+        "name": "LTCW Pressure",
+        "sql": 79
+    },
+    {
+        "no": 42,
+        "name": "LTCW Flow",
+        "sql": 78
+    },
+    {
+        "no": 43,
+        "name": "Cooling Tower LTCW Pressure",
+        "sql": 82
+    },
+    {
+        "no": 44,
+        "name": "Lubr. Oil Temp. After Pump",
+        "sql": 88
+    },
+    {
+        "no": 45,
+        "name": "Lubr. Oil Temp. Before Cooler",
+        "sql": 89
+    },
+    {
+        "no": 46,
+        "name": "Lubr. Oil Temp. After Cooler",
+        "sql": 90
+    },
+    {
+        "no": 47,
+        "name": "Lubr. Oil Temp. Before Engine",
+        "sql": 93
+    },
+    {
+        "no": 48,
+        "name": "Lubr. Oil Press. After Pump",
+        "sql": 87
+    },
+    {
+        "no": 49,
+        "name": "Lubr. Oil Press. Before Engine",
+        "sql": 92
+    },
+    {
+        "no": 50,
+        "name": "Fuel Temp.",
+        "sql": 109
+    },
+    {
+        "no": 51,
+        "name": "Fuel Pressure After Pump",
+        "sql": 107
+    },
+    {
+        "no": 52,
+        "name": "Fuel Pressure After Filter",
+        "sql": 108
+    },
+    {
+        "no": 53,
+        "name": "Fuel Flow",
+        "sql": 110
+    },
+    {
+        "no": 54,
+        "name": "Fuel Tank Level",
+        "sql": 111
+    },
+    {
+        "no": 55,
+        "name": "Time",
+        "sql": 6
+    },
+    {
+        "no": 56,
+        "name": "Time",
+        "sql": 7
+    }
+]
