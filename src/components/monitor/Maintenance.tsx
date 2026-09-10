@@ -1,7 +1,7 @@
 // Box4.js
 import React, { useEffect, useState, useMemo } from 'react'
 import { io } from 'socket.io-client'
-import overhaulData from '../assets/overhaul.json'
+import overhaulData from '../../assets/overhaul.json'
 
 const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;
 const socket = io(SOCKET_URL);

@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { io } from 'socket.io-client';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import engineSchema from '../assets/data.json';
+import engineSchema from '../../assets/data.json';
 
 const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;
 const socket = io(SOCKET_URL);

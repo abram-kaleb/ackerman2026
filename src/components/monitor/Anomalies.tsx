@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { io } from 'socket.io-client';
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, ReferenceLine, Tooltip } from 'recharts';
 
-import featureData from '../assets/feature2.json';
+import featureData from '../../assets/feature2.json';
 
 // --- CONFIG & CONSTANTS ---
 const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;

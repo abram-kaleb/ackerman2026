@@ -1,0 +1,951 @@
+{
+    "version": "1.0",
+    "total_models": 35,
+    "models": {
+        "Mean_Charge Air Pressure after Charge Air Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Charge Air Pressure after Charge Air Cooler"
+            },
+            "scaling": {
+                "x_mean": 749.3818494623656,
+                "x_std": 171.216296329817,
+                "y_mean": 487.4471397849462,
+                "y_std": 309.17652463807093
+            },
+            "coefficients": {
+                "A20": -1.6217927923258072e-05,
+                "A11": 8.077462772156124e-07,
+                "A02": 1.4391877905073398e-06,
+                "A10": 0.025538519894229048,
+                "A01": 0.0010293683973961365,
+                "A00": -8.308782753935823
+            },
+            "metrics": {
+                "r2_score": 0.977951432315362,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Charge_Air_Pressure_after_Charge_Air_Cooler.json"
+        },
+        "Mean_Charge Air Temperature after Charge Air Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Charge Air Temperature after Charge Air Cooler"
+            },
+            "scaling": {
+                "x_mean": 748.2481075268817,
+                "x_std": 170.3412949478613,
+                "y_mean": 478.27838709677417,
+                "y_std": 311.0319120397314
+            },
+            "coefficients": {
+                "A20": -8.53424454598146e-05,
+                "A11": 0.0001002206761604296,
+                "A02": 1.743765266703089e-05,
+                "A10": 0.11637483378134388,
+                "A01": -0.0771736578371534,
+                "A00": -6.768618815959356
+            },
+            "metrics": {
+                "r2_score": 0.8055336115727756,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Charge_Air_Temperature_after_Charge_Air_Cooler.json"
+        },
+        "Mean_Charge Air Temperature before Charge Air Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Charge Air Temperature before Charge Air Cooler"
+            },
+            "scaling": {
+                "x_mean": 749.3811827956989,
+                "x_std": 171.06137264157678,
+                "y_mean": 482.2697634408602,
+                "y_std": 310.14575094259413
+            },
+            "coefficients": {
+                "A20": -3.550266682578976e-06,
+                "A11": 0.00016857744404282217,
+                "A02": 1.1542125873864011e-05,
+                "A10": 0.013546859128657378,
+                "A01": -0.015923161018528732,
+                "A00": 17.98260932836752
+            },
+            "metrics": {
+                "r2_score": 0.9813801603744254,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Charge_Air_Temperature_before_Charge_Air_Cooler.json"
+        },
+        "Mean_Charge Air Temperature before Turbocharger": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Charge Air Temperature before Turbocharger"
+            },
+            "scaling": {
+                "x_mean": 742.9653333333333,
+                "x_std": 170.38318257081528,
+                "y_mean": 474.10322580645163,
+                "y_std": 310.97115776129357
+            },
+            "coefficients": {
+                "A20": -1.0922870463897575e-05,
+                "A11": 1.3318586370794261e-05,
+                "A02": -7.374299537431178e-06,
+                "A10": 0.01738184887429312,
+                "A01": -0.0048527850965407095,
+                "A00": 15.31503116016305
+            },
+            "metrics": {
+                "r2_score": 0.14041405872826618,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Charge_Air_Temperature_before_Turbocharger.json"
+        },
+        "Mean_Exhaust Pressure after Turbocharger": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Pressure after Turbocharger"
+            },
+            "scaling": {
+                "x_mean": 742.6102580645162,
+                "x_std": 170.87571718670617,
+                "y_mean": 464.8082795698924,
+                "y_std": 311.2062502898159
+            },
+            "coefficients": {
+                "A20": 1.6516287434114884e-06,
+                "A11": -4.399586627220015e-06,
+                "A02": 2.5514232693122057e-07,
+                "A10": -0.0012147613473453404,
+                "A01": 0.003954178285305964,
+                "A00": -0.02475732038620393
+            },
+            "metrics": {
+                "r2_score": 0.5336143256221817,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Pressure_after_Turbocharger.json"
+        },
+        "Mean_Exhaust Temperature after Cylinder 1": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Cylinder 1"
+            },
+            "scaling": {
+                "x_mean": 746.870064516129,
+                "x_std": 171.8482709893285,
+                "y_mean": 478.97578494623656,
+                "y_std": 310.51193236879305
+            },
+            "coefficients": {
+                "A20": 0.0003250244191640747,
+                "A11": -0.0005288237666550531,
+                "A02": -0.00015539174774230425,
+                "A10": -0.34437073141313995,
+                "A01": 0.7406540135030925,
+                "A00": 283.076820734754
+            },
+            "metrics": {
+                "r2_score": 0.8739694157494368,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Cylinder_1.json"
+        },
+        "Mean_Exhaust Temperature after Cylinder 2": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Cylinder 2"
+            },
+            "scaling": {
+                "x_mean": 745.9532688172044,
+                "x_std": 171.6438515818249,
+                "y_mean": 479.8065591397849,
+                "y_std": 310.1754915876969
+            },
+            "coefficients": {
+                "A20": 0.0003103239104997422,
+                "A11": -0.0006035652479356978,
+                "A02": -0.00016441937207840827,
+                "A10": -0.3399998618646109,
+                "A01": 0.8254580632174073,
+                "A00": 276.2712138304894
+            },
+            "metrics": {
+                "r2_score": 0.8729343775183289,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Cylinder_2.json"
+        },
+        "Mean_Exhaust Temperature after Cylinder 3": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Cylinder 3"
+            },
+            "scaling": {
+                "x_mean": 747.8205376344085,
+                "x_std": 170.770268098124,
+                "y_mean": 480.1009247311828,
+                "y_std": 309.20201565015253
+            },
+            "coefficients": {
+                "A20": 0.0001841760116958421,
+                "A11": -0.0005486909112444283,
+                "A02": -0.00016953664246271023,
+                "A10": -0.158138227345335,
+                "A01": 0.7873687150640492,
+                "A00": 203.2841682160642
+            },
+            "metrics": {
+                "r2_score": 0.869271941814346,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Cylinder_3.json"
+        },
+        "Mean_Exhaust Temperature after Cylinder 4": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Cylinder 4"
+            },
+            "scaling": {
+                "x_mean": 746.462752688172,
+                "x_std": 171.79023300834524,
+                "y_mean": 481.2705161290322,
+                "y_std": 310.4641514596224
+            },
+            "coefficients": {
+                "A20": 0.000298319650703797,
+                "A11": -0.0006177666164284381,
+                "A02": -0.00017187710268485587,
+                "A10": -0.3358103436517384,
+                "A01": 0.84864273966656,
+                "A00": 270.0136744330765
+            },
+            "metrics": {
+                "r2_score": 0.8732923401449763,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Cylinder_4.json"
+        },
+        "Mean_Exhaust Temperature after Cylinder 5": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Cylinder 5"
+            },
+            "scaling": {
+                "x_mean": 746.8874623655914,
+                "x_std": 171.59237063437828,
+                "y_mean": 479.42215053763437,
+                "y_std": 310.6993129183768
+            },
+            "coefficients": {
+                "A20": 0.00020691554990377996,
+                "A11": -0.0005830399632810875,
+                "A02": -0.00016799548634146988,
+                "A10": -0.21439906680515888,
+                "A01": 0.8216531127724057,
+                "A00": 232.77375530711083
+            },
+            "metrics": {
+                "r2_score": 0.8682174770929757,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Cylinder_5.json"
+        },
+        "Mean_Exhaust Temperature after Cylinder 6": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Cylinder 6"
+            },
+            "scaling": {
+                "x_mean": 747.8837419354838,
+                "x_std": 171.3750350970124,
+                "y_mean": 481.5254623655914,
+                "y_std": 310.8349701455048
+            },
+            "coefficients": {
+                "A20": 0.00021209630418360213,
+                "A11": -0.0005791515709496605,
+                "A02": -0.00013390787155580155,
+                "A10": -0.20393524749448497,
+                "A01": 0.7675804803262476,
+                "A00": 228.81032957352292
+            },
+            "metrics": {
+                "r2_score": 0.859210965665028,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Cylinder_6.json"
+        },
+        "Mean_Exhaust Temperature after Turbocharger": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature after Turbocharger"
+            },
+            "scaling": {
+                "x_mean": 749.354688172043,
+                "x_std": 170.88416126073247,
+                "y_mean": 487.1655053763441,
+                "y_std": 307.72824517461214
+            },
+            "coefficients": {
+                "A20": -0.00015034038204243835,
+                "A11": -0.0009013847825256627,
+                "A02": -0.00025807313782217267,
+                "A10": 0.35069460394480184,
+                "A01": 1.1518867816521656,
+                "A00": 39.26790635571308
+            },
+            "metrics": {
+                "r2_score": 0.7985872945128808,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_after_Turbocharger.json"
+        },
+        "Mean_Exhaust Temperature before Turbocharger": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Exhaust Temperature before Turbocharger"
+            },
+            "scaling": {
+                "x_mean": 752.0081075268818,
+                "x_std": 170.89506358469728,
+                "y_mean": 487.54584946236554,
+                "y_std": 308.38187289731917
+            },
+            "coefficients": {
+                "A20": -6.322061106796864e-05,
+                "A11": -0.0008636043426937488,
+                "A02": -0.0002508207771151217,
+                "A10": 0.1877560099951918,
+                "A01": 1.2570039981182202,
+                "A00": 108.05346249133679
+            },
+            "metrics": {
+                "r2_score": 0.9428241817492938,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Exhaust_Temperature_before_Turbocharger.json"
+        },
+        "Mean_HTCW Flow Rate": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Flow Rate"
+            },
+            "scaling": {
+                "x_mean": 745.2396774193547,
+                "x_std": 169.71171986897988,
+                "y_mean": 467.7977204301075,
+                "y_std": 308.9128148748936
+            },
+            "coefficients": {
+                "A20": 1.7464157473367964e-05,
+                "A11": -1.6865811379570545e-05,
+                "A02": 6.361795578068632e-06,
+                "A10": 0.030569233166685115,
+                "A01": 0.006692853211766498,
+                "A00": 3.9037016994573905
+            },
+            "metrics": {
+                "r2_score": 0.9462283768636904,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_HTCW_Flow_Rate.json"
+        },
+        "Mean_HTCW Temperature after Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Cooler"
+            },
+            "scaling": {
+                "x_mean": 783.5192771084337,
+                "x_std": 149.23490747522177,
+                "y_mean": 522.6200240963856,
+                "y_std": 295.46464474362693
+            },
+            "coefficients": {
+                "A20": -8.815280506887135e-06,
+                "A11": 1.745537590329236e-06,
+                "A02": 4.8970577578145645e-06,
+                "A10": 0.012988371984025866,
+                "A01": -0.005916346783253606,
+                "A00": 69.96850137136317
+            },
+            "metrics": {
+                "r2_score": 0.20748850840867972,
+                "data_points_fitted": 415
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Cooler.json"
+        },
+        "Mean_HTCW Temperature after Cylinder 1": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Cylinder 1"
+            },
+            "scaling": {
+                "x_mean": 781.2090048543689,
+                "x_std": 149.58768920367203,
+                "y_mean": 520.4688592233009,
+                "y_std": 295.00070688176197
+            },
+            "coefficients": {
+                "A20": -4.038677276186629e-06,
+                "A11": -1.0908904189693534e-06,
+                "A02": 6.437486421781528e-06,
+                "A10": 0.007351696004672243,
+                "A01": -0.0050457204792431695,
+                "A00": 72.63152078034548
+            },
+            "metrics": {
+                "r2_score": 0.30077898551308313,
+                "data_points_fitted": 412
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Cylinder_1.json"
+        },
+        "Mean_HTCW Temperature after Cylinder 2": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Cylinder 2"
+            },
+            "scaling": {
+                "x_mean": 782.24,
+                "x_std": 150.02020166802808,
+                "y_mean": 516.8306553398057,
+                "y_std": 296.9313512694858
+            },
+            "coefficients": {
+                "A20": 2.5388443354586867e-06,
+                "A11": -4.748012926535555e-06,
+                "A02": 5.786410279802716e-06,
+                "A10": -0.002250770978337369,
+                "A01": -0.00016516739498106996,
+                "A00": 75.82801698511017
+            },
+            "metrics": {
+                "r2_score": 0.3189194498173382,
+                "data_points_fitted": 412
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Cylinder_2.json"
+        },
+        "Mean_HTCW Temperature after Cylinder 3": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Cylinder 3"
+            },
+            "scaling": {
+                "x_mean": 782.3394660194174,
+                "x_std": 149.62013515240244,
+                "y_mean": 518.738932038835,
+                "y_std": 296.7188526559855
+            },
+            "coefficients": {
+                "A20": -5.060403191163004e-07,
+                "A11": -3.355683847568537e-06,
+                "A02": 5.7617404276376655e-06,
+                "A10": 0.0023422340148400505,
+                "A01": -0.0015450044904758964,
+                "A00": 74.47023269310675
+            },
+            "metrics": {
+                "r2_score": 0.4017146945093373,
+                "data_points_fitted": 412
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Cylinder_3.json"
+        },
+        "Mean_HTCW Temperature after Cylinder 4": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Cylinder 4"
+            },
+            "scaling": {
+                "x_mean": 783.5026941747573,
+                "x_std": 149.2504555520846,
+                "y_mean": 522.1252427184465,
+                "y_std": 295.1738420974637
+            },
+            "coefficients": {
+                "A20": -2.742808041838014e-06,
+                "A11": -1.4535252306502687e-06,
+                "A02": 6.5274011145671555e-06,
+                "A10": 0.005033998722621396,
+                "A01": -0.004051909839965708,
+                "A00": 73.76390066795352
+            },
+            "metrics": {
+                "r2_score": 0.3194115552576071,
+                "data_points_fitted": 412
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Cylinder_4.json"
+        },
+        "Mean_HTCW Temperature after Cylinder 5": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Cylinder 5"
+            },
+            "scaling": {
+                "x_mean": 782.4181067961165,
+                "x_std": 149.3032832691472,
+                "y_mean": 519.8169902912621,
+                "y_std": 295.74078855602096
+            },
+            "coefficients": {
+                "A20": -4.416687520022232e-06,
+                "A11": -5.518927170393677e-07,
+                "A02": 6.390253074883618e-06,
+                "A10": 0.008044656616158632,
+                "A01": -0.005489286139315278,
+                "A00": 72.33472947971886
+            },
+            "metrics": {
+                "r2_score": 0.32255286630218005,
+                "data_points_fitted": 412
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Cylinder_6.json"
+        },
+        "Mean_HTCW Temperature after Engine": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature after Engine"
+            },
+            "scaling": {
+                "x_mean": 782.8155608591886,
+                "x_std": 149.10452885711229,
+                "y_mean": 519.8814319809069,
+                "y_std": 295.161476204577
+            },
+            "coefficients": {
+                "A20": -4.674080153093343e-10,
+                "A11": -1.0608608311877733e-05,
+                "A02": 5.20316870022073e-06,
+                "A10": 0.00010536740389640189,
+                "A01": 0.007731780628753028,
+                "A00": 76.46784006159561
+            },
+            "metrics": {
+                "r2_score": 0.5118922650391793,
+                "data_points_fitted": 419
+            },
+            "source_file": "Mean_HTCW_Temperature_after_Engine.json"
+        },
+        "Mean_HTCW Temperature before Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature before Cooler"
+            },
+            "scaling": {
+                "x_mean": 781.959522673031,
+                "x_std": 149.3016978026615,
+                "y_mean": 517.6277326968974,
+                "y_std": 294.42457518129214
+            },
+            "coefficients": {
+                "A20": -3.267228114464022e-06,
+                "A11": -8.587150211704313e-06,
+                "A02": 4.417795702065302e-06,
+                "A10": 0.00398105681615076,
+                "A01": 0.007013255271863781,
+                "A00": 75.29031728542819
+            },
+            "metrics": {
+                "r2_score": 0.5427165779902811,
+                "data_points_fitted": 419
+            },
+            "source_file": "Mean_HTCW_Temperature_before_Cooler.json"
+        },
+        "Mean_HTCW Temperature before Engine": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_HTCW Temperature before Engine"
+            },
+            "scaling": {
+                "x_mean": 782.0632211538461,
+                "x_std": 150.6665538894564,
+                "y_mean": 521.779639423077,
+                "y_std": 297.53135211549875
+            },
+            "coefficients": {
+                "A20": -2.957758997201862e-06,
+                "A11": 7.098933412488288e-07,
+                "A02": 6.38625521664432e-06,
+                "A10": 0.004621500482809203,
+                "A01": -0.007226959168973735,
+                "A00": 73.52434822420574
+            },
+            "metrics": {
+                "r2_score": 0.16546601972909225,
+                "data_points_fitted": 416
+            },
+            "source_file": "Mean_HTCW_Temperature_before_Engine.json"
+        },
+        "Mean_LTCW Flow Rate": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_LTCW Flow Rate"
+            },
+            "scaling": {
+                "x_mean": 748.3953548387096,
+                "x_std": 170.0041173206172,
+                "y_mean": 485.8538709677419,
+                "y_std": 307.7340192377018
+            },
+            "coefficients": {
+                "A20": 1.5780803565172588e-05,
+                "A11": -4.03966346421288e-05,
+                "A02": 1.9820881770535254e-05,
+                "A10": 0.012617324073846857,
+                "A01": 0.01324322259323255,
+                "A00": -0.4745577725930339
+            },
+            "metrics": {
+                "r2_score": 0.6977463964162465,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_LTCW_Flow_Rate.json"
+        },
+        "Mean_LTCW Temperature after Charge Air Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_LTCW Temperature after Charge Air Cooler"
+            },
+            "scaling": {
+                "x_mean": 747.0193333333334,
+                "x_std": 169.18979403431393,
+                "y_mean": 472.8705591397849,
+                "y_std": 308.8712687052378
+            },
+            "coefficients": {
+                "A20": -7.689795134481455e-05,
+                "A11": 5.897695149810667e-05,
+                "A02": -2.752059497069125e-06,
+                "A10": 0.10743840484990502,
+                "A01": -0.035292952151718134,
+                "A00": -15.590443094123954
+            },
+            "metrics": {
+                "r2_score": 0.6274030874773613,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_LTCW_Temperature_after_Charge_Air_Cooler.json"
+        },
+        "Mean_LTCW Temperature after Cylinder Water Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_LTCW Temperature after Cylinder Water Cooler"
+            },
+            "scaling": {
+                "x_mean": 747.7070322580646,
+                "x_std": 170.83238866261144,
+                "y_mean": 479.80645161290323,
+                "y_std": 310.1458567999636
+            },
+            "coefficients": {
+                "A20": -0.00012197614376249762,
+                "A11": 7.339088023427013e-05,
+                "A02": -1.9986780285238747e-05,
+                "A10": 0.16955630429524787,
+                "A01": -0.015292443358006584,
+                "A00": -32.80200516640613
+            },
+            "metrics": {
+                "r2_score": 0.729667292747433,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_LTCW_Temperature_after_Cylinder_Water_Cooler.json"
+        },
+        "Mean_LTCW Temperature after Lube Oil Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_LTCW Temperature after Lube Oil Cooler"
+            },
+            "scaling": {
+                "x_mean": 746.3149677419354,
+                "x_std": 170.29814918927985,
+                "y_mean": 472.45270967741936,
+                "y_std": 310.2971250783126
+            },
+            "coefficients": {
+                "A20": -0.0001091869848464352,
+                "A11": 8.51405746055428e-05,
+                "A02": -8.451335496711656e-06,
+                "A10": 0.153099359640643,
+                "A01": -0.04790231070079273,
+                "A00": -28.906147382636135
+            },
+            "metrics": {
+                "r2_score": 0.7084829301800373,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_LTCW_Temperature_after_Lube_Oil_Cooler.json"
+        },
+        "Mean_LTCW Temperature before Charge Air Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_LTCW Temperature before Charge Air Cooler"
+            },
+            "scaling": {
+                "x_mean": 746.1170107526881,
+                "x_std": 168.72087369804922,
+                "y_mean": 465.83561290322587,
+                "y_std": 306.5746012682408
+            },
+            "coefficients": {
+                "A20": -5.479284074499697e-05,
+                "A11": 3.506126387652079e-05,
+                "A02": -4.725268989552793e-06,
+                "A10": 0.08035459205126216,
+                "A01": -0.022202427883905338,
+                "A00": -8.47517341796283
+            },
+            "metrics": {
+                "r2_score": 0.2939055560019058,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_LTCW_Temperature_before_Charge_Air_Cooler.json"
+        },
+        "Mean_LTCW Temperature before Lube Oil Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_LTCW Temperature before Lube Oil Cooler"
+            },
+            "scaling": {
+                "x_mean": 746.4452688172044,
+                "x_std": 169.62318644490452,
+                "y_mean": 471.9477634408602,
+                "y_std": 309.20899684013654
+            },
+            "coefficients": {
+                "A20": -8.250400479566481e-05,
+                "A11": 6.40619729988848e-05,
+                "A02": -2.185718779642239e-06,
+                "A10": 0.114884461789756,
+                "A01": -0.04017565410428247,
+                "A00": -17.708564012225644
+            },
+            "metrics": {
+                "r2_score": 0.6343227541215097,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_LTCW_Temperature_before_Lube_Oil_Cooler.json"
+        },
+        "Mean_Lube Oil Temperature after Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Lube Oil Temperature after Cooler"
+            },
+            "scaling": {
+                "x_mean": 788.0815165876778,
+                "x_std": 143.9946770247818,
+                "y_mean": 527.6455924170616,
+                "y_std": 292.5402335615753
+            },
+            "coefficients": {
+                "A20": -4.052836259010408e-05,
+                "A11": 1.814206136451382e-05,
+                "A02": 1.0022273133957304e-05,
+                "A10": 0.04841392849629665,
+                "A01": -0.027809880279941055,
+                "A00": 51.837471097867436
+            },
+            "metrics": {
+                "r2_score": 0.4333346629007393,
+                "data_points_fitted": 422
+            },
+            "source_file": "Mean_Lube_Oil_Temperature_after_Cooler.json"
+        },
+        "Mean_Lube Oil Temperature after Pump": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Lube Oil Temperature after Pump"
+            },
+            "scaling": {
+                "x_mean": 887.5162878787878,
+                "x_std": 19.521501178248844,
+                "y_mean": 831.6719696969698,
+                "y_std": 141.7997454935829
+            },
+            "coefficients": {
+                "A20": 0.000579357941967523,
+                "A11": -0.00011324908948877343,
+                "A02": -1.3859095849642079e-05,
+                "A10": -0.8891789257119876,
+                "A01": 0.12403202264256165,
+                "A00": 394.6415927300212
+            },
+            "metrics": {
+                "r2_score": 0.13133886403735895,
+                "data_points_fitted": 132
+            },
+            "source_file": "Mean_Lube_Oil_Temperature_after_Pump.json"
+        },
+        "Mean_Lube Oil Temperature before Cooler": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Lube Oil Temperature before Cooler"
+            },
+            "scaling": {
+                "x_mean": 888.2290163934425,
+                "x_std": 18.88994513289268,
+                "y_mean": 841.6460655737704,
+                "y_std": 138.55529201865886
+            },
+            "coefficients": {
+                "A20": 9.888120299144379e-06,
+                "A11": 0.00016222226718198913,
+                "A02": -1.5189669820048664e-05,
+                "A10": -0.11264571066916315,
+                "A01": -0.12066829053630182,
+                "A00": 155.32664067154886
+            },
+            "metrics": {
+                "r2_score": 0.12239548024701008,
+                "data_points_fitted": 122
+            },
+            "source_file": "Mean_Lube_Oil_Temperature_before_Cooler.json"
+        },
+        "Mean_Lube Oil Temperature before Engine": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Lube Oil Temperature before Engine"
+            },
+            "scaling": {
+                "x_mean": 789.7434128878282,
+                "x_std": 143.09729598169108,
+                "y_mean": 529.898997613365,
+                "y_std": 292.3326484269476
+            },
+            "coefficients": {
+                "A20": -3.300407034766685e-05,
+                "A11": 3.4877088828336434e-06,
+                "A02": 9.837976820564237e-06,
+                "A10": 0.04209216200553682,
+                "A01": -0.016470613007336113,
+                "A00": 52.56258412165253
+            },
+            "metrics": {
+                "r2_score": 0.46508937783717597,
+                "data_points_fitted": 419
+            },
+            "source_file": "Mean_Lube_Oil_Temperature_before_Engine.json"
+        },
+        "Mean_MDO Fuel Throughput": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_MDO Fuel Throughput"
+            },
+            "scaling": {
+                "x_mean": 754.9165227817745,
+                "x_std": 170.8292724269701,
+                "y_mean": 489.08381294964033,
+                "y_std": 310.8379040123051
+            },
+            "coefficients": {
+                "A20": -3.189259210967824e-05,
+                "A11": 5.326055340978999e-06,
+                "A02": 1.959846678645467e-05,
+                "A10": 0.06543968370035524,
+                "A01": 0.16622299175517175,
+                "A00": -13.678970580743462
+            },
+            "metrics": {
+                "r2_score": 0.9976074530925988,
+                "data_points_fitted": 417
+            },
+            "source_file": "Mean_MDO_Fuel_Throughput.json"
+        },
+        "Mean_Turbocharger Speed": {
+            "model_type": "2nd_order_polynomial_3d_surface",
+            "features": {
+                "x_axis": "Mean_Engine Speed (RPM)",
+                "y_axis": "Mean_Braking Power",
+                "z_axis": "Mean_Turbocharger Speed"
+            },
+            "scaling": {
+                "x_mean": 746.3102150537634,
+                "x_std": 170.287423207176,
+                "y_mean": 470.2392903225807,
+                "y_std": 308.20515139055726
+            },
+            "coefficients": {
+                "A20": 0.0018405571954232842,
+                "A11": -0.002847307372553527,
+                "A02": -0.009103618282530538,
+                "A10": 9.64835046831927,
+                "A01": 42.155053811425844,
+                "A00": -3382.6186392283244
+            },
+            "metrics": {
+                "r2_score": 0.9953449990398083,
+                "data_points_fitted": 465
+            },
+            "source_file": "Mean_Turbocharger_Speed.json"
+        }
+    }
+}

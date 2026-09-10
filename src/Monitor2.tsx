@@ -1,12 +1,12 @@
 import React, { useState, useRef } from 'react'
-import Box1 from './components/Canvas'
-import Box2 from './components/Room'
-import Box3 from './components/Gauge'
-import Box4 from './components/Maintenance'
-import Box5 from './components/Trend'
-import Box6 from './components/Alarm'
-import Box7 from './components/Anomalies'
-import Box8 from './components/ChatBot'
+import Box1 from './components/monitor/Canvas'
+import Box2 from './components/monitor/Room'
+import Box3 from './components/monitor/Gauge'
+import Box4 from './components/monitor/Maintenance'
+import Box5 from './components/monitor/Trend'
+import Box6 from './components/monitor/Alarm'
+import Box7 from './components/monitor/Anomalies'
+import Box8 from './components/monitor/ChatBot'
 
 const Dashboard2 = ({ children }: { children?: React.ReactNode }) => {
   const [fs, setFs] = useState<number | null>(null)
